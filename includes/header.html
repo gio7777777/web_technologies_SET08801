@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>BeLocal</title>
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	
+	<!-- Custom CSS -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="design/style.css">
+
+	
+	<!-- Add Firebase SDK script -->
+	<script src="https://www.gstatic.com/firebasejs/9.15.0/firebase-app.js"></script>
+	<script src="https://www.gstatic.com/firebasejs/9.15.0/firebase-database.js"></script>
+
+	<!--Js-->
+	<script src="https://www.gstatic.com/firebasejs/9.17.2/firebase-database.js"></script>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+
+	<!--DB-->
+	<script type="module" src="js/firebase-config.js"></script>
+</head>
+
+<body>
+	<nav class="navbar navbar-expand-lg navbar-light bg-light">
+		<div class="dropdwn">
+			<button class="dropbtn"><img src="design/menu.png" alt="logo" id="dropdwn-img"></button>
+			<div class="dropdwn-content">
+				<a href="recipes.html?cuisine=Italian">Italian Cuisine</a>
+				<a href="recipes.html?cuisine=Chinese">Chinese Cuisine</a>
+				<a href="recipes.html?cuisine=French">French Cuisine</a>
+				<a href="recipes.html?cuisine=Thai">Thai Cuisine</a>
+			</div>
+		</div>
+
+			<a class="navbar-brand" href="index.html">
+				<img src="design/logo.png" alt="logo" id="logo">
+				BeLocal
+			</a>
+		
+			<form class="form-inline my-2 my-lg-0 mx-auto" style="width:120%;" accept-charset="utf-8" action="step-by-step.html" method="GET">
+				<input class="form-control mr-lg-2" type="search" placeholder="Search" aria-label="Search" id="search-input" name="search">
+				<button class="btn btn-outline-success my-2 my-lg-0" type="submit">Go</button>
+			</form>			
+
+			<a href="restaurants-map.html" >
+				<img src="design/map.png" alt="logo" id="map-logo">
+			</a>
+	</nav>

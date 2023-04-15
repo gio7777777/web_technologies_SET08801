@@ -1,0 +1,259 @@
+/*IMAGES*/
+#logo {
+    width: 25%;
+    height: 25%;
+}
+
+#map-logo {
+    float: right;
+    width: 12%;
+    height: 12%;
+}
+
+#filter-icon {
+  float: right;
+  font-size: 45px;
+}
+
+.strechted {
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  width: 70%;
+  height: 60%;
+}
+
+.img-container {
+  position: relative;
+  display: inline-block;
+}
+
+.img-container img {
+  height: 400px;
+  width: 450px;
+  
+}
+
+.img-title {
+  position: absolute;
+  bottom: 0%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(255, 255, 255, 0.7);
+  padding: 5px;
+  font-weight: bold;
+}
+
+/*NAVBAR*/
+.navbar {
+  border-bottom: solid black 0.5px;
+}
+
+/*FONT*/
+h4 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-left: 2%;
+    margin-bottom: 2%;
+    margin-top: 4%;
+}
+
+#title {
+  font-weight: bold;
+  margin-left: 2%;
+  margin-bottom: 2%;
+}
+
+#title-cuisine, #title-recipe {
+  font-weight: bold;
+  margin-left: 2%;
+  margin-bottom: 2%;
+}
+
+
+/*DROPDOWN*/
+.dropbtn {
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  /* position the content */
+  .dropdwn {
+    display: inline-block;
+    position: relative;
+  }
+  
+  /* style the links in the dropdown */
+  .dropdwn-content a {
+    color: rgb(20, 7, 7);
+    padding: 10px 10px;
+    display: block;
+  }
+  
+  /* show the dropdown when overed */
+  .dropdwn:hover .dropdwn-content {
+    display: block;
+  }
+
+   /* hide dropdown content */
+   .dropdwn-content {
+    display: none;
+    background-color: #f9f9f9;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    position: absolute;
+    min-width: 160px;
+    z-index: 1;
+  }
+
+  #dropdwn-img {
+   width: 20px; 
+  }
+
+/*FAST LINKS CUISINE*/
+.grid, .buttons{
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+.buttons {
+    width: 40%; 
+    padding: 10px;
+    margin-left: 30%;
+}
+
+/*GRID*/
+
+#grid-central-img{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*IMAGES SECTIONS*/
+ .column {
+    float: left;
+    width: 25%;
+    padding: 5px;
+    margin-left: 5%;
+  }
+
+  .image-container {
+    position: relative;
+  }
+  
+  .image-text {
+    position: absolute;
+    top: 75%;
+    left: 75%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+  }
+  
+  .image-text p {
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  .scrolling-images {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    flex-direction: column; /* add this */
+    margin-top: -1%;
+  }
+  
+  
+  
+  .column {
+    flex-basis: 28%;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .column img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+  }
+  
+  .recipe-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+  }
+  
+  .recipe-info span {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .recipe-info .clock {
+    margin-right: 10px;
+  }
+  
+  .recipe-info .difficulty {
+    margin-left: 10px;
+  }
+  
+
+/*STEP BY STEé*/
+.description {
+  margin-top: 5%;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-bottom: 2%;
+  width: 70%;
+  box-sizing: border-box;
+  padding: 4%;
+}
+
+#ingredients {
+  background-color: rgb(187, 233, 233);
+}
+#step {
+  background-color: rgb(204, 247, 207);
+}
+
+
+/*MAP*/
+#map {
+  height: 90%;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+
+
+
+  
+  
+/*FOOTER*/
+footer {
+  background-color: #f2f2f2;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 7%;
+}
+
+.footer-links a {
+  color: rgb(20, 7, 7);
+  margin-left: 2%;
+  font-size: 20px;
+}
+
+.footer-icons i {
+  color: rgb(20, 7, 7);
+  font-size: 24px;
+  margin-right: 20px;
+}
+
+ 
