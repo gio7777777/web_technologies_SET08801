@@ -81,7 +81,7 @@ const recQuery1 = query(recCol, orderBy("date", "desc"));
 getDocs(recQuery1).then((querySnapshot) => {
   let i = 0;
   querySnapshot.forEach((doc) => {
-    populateRecipeInfo(doc.id, `rec-name-mr-${i}`, `rec-time-${i}`, `rec-difficulty-${i}`, `rec-img-mr-${i}`, `link-recent-${i}`);
+    populateRecipeInfo(doc.id, `rec-name-mr-${i}`, `rec-time-mr-${i}`, `rec-difficulty-${i}`, `rec-img-mr-${i}`, `link-recent-${i}`);
     i++;
   });
 }).catch((error) => {
